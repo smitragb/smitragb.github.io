@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I recently graduated from University of Wisconsin-Madison (on Badgers!) with a Master's degree!
+I recently graduated from the University of Wisconsin-Madison (on Badgers!) with a Master's degree!
 
-My research interests lie in the intersection of Mathematics and Computer Science. I am broadly interested in Algorithms, Theoretical Comptuer Science, Computational Complexity, and Cryptography. My Master's in Science at UW focused heavily on these topics with my Research thesis on "Classical Verification for QMA". I did my Bachelor's at one of India's premier institutes: National Institute of Technology Karnataka.
+My research interests lie in the intersection of Mathematics and Computer Science. I am broadly interested in Algorithms, Theoretical Computer Science, Computational Complexity, and Cryptography. My Master's in Science at UW focused heavily on these topics, with my Research thesis on "Classical Verification for QMA". I did my Bachelor's at one of India's premier institutes: National Institute of Technology Karnataka.
 
 Currently, I am learning the Rust programming language, and as a true Rustacean, I'm attempting to rewrite some of my academic projects in Rust. 
 
@@ -21,7 +21,7 @@ A few projects I'm proud of!
 ------
 - *Batching Lattice-based Zero-Knowledge proofs for Integer Relations*: [IRELZK](https://github.com/Shashwatha-Mitra/bat-lns)
 
-This project was my foray into Lattice-based constructions for ZK proofs and my attempt to improving the current state of the art. The main idea of this project is rather cute: use randomized aggregation of the individual proof elements to get a single proof for a batch of instances. The idea provably retains the security of the protocol. 
+This project was my foray into Lattice-based constructions for ZK proofs and my attempt to improve the current state of the art. The main idea of this project is rather cute: use randomized aggregation of the individual proof elements to get a single proof for a batch of instances. The idea provably retains the security of the protocol. 
 - *Implementing Hermes Replication for a durable KV-store*: [Hermes](https://github.com/Shashwatha-Mitra/hermes-kvs)
 
 This project was a part of my Distributed Systems course at UW. We set out to implement the Hermes [replication protocol](https://hermes-protocol.com/) for a durable KV-store built using sqlite3. We compared this with our implementation of a sharded Chain Replication (CR) protocol for completeness, with Hermes beating CR by *4x* on writes. (Rust version coming soon! xD)
